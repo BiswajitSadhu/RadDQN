@@ -1,0 +1,19 @@
+INFO:main:cuda available: False
+INFO:main:Model size: 121108
+INFO:main:learning rate: 0.001
+INFO:main:failed:: episode_id: 0. moves taken: 11. total_reward: -5.155424211364945
+INFO:main:goal achieved:: episode_id: 1. moves taken: 20. total_reward: -4.412954723320029
+INFO:main:failed:: episode_id: 2. moves taken: 31. total_reward: -24.47996351975943
+INFO:main:failed:: episode_id: 3. moves taken: 31. total_reward: -30.80929045587233
+INFO:main:failed:: episode_id: 4. moves taken: 22. total_reward: -15.38790914939522
+INFO:main:goal achieved:: episode_id: 5. moves taken: 26. total_reward: -8.345437868457209
+INFO:main:goal achieved:: episode_id: 6. moves taken: 27. total_reward: -6.928471432145825
+INFO:main:goal achieved:: episode_id: 7. moves taken: 19. total_reward: -11.445177080509717
+INFO:main:goal achieved:: episode_id: 8. moves taken: 25. total_reward: -18.63945213095466
+INFO:main:failed:: episode_id: 9. moves taken: 28. total_reward: -24.905546659066896
+INFO:main:goal achieved:: episode_id: 10. moves taken: 19. total_reward: -1.029005597312029
+INFO:main:goal achieved:: episode_id: 11. moves taken: 21. total_reward: -8.26914252382174
+INFO:main:goal achieved:: episode_id: 12. moves taken: 21. total_reward: -13.815247555202516
+INFO:main:goal achieved:: episode_id: 13. moves taken: 18. total_reward: -11.665676768887737
+INFO:main:goal achieved:: episode_id: 14. moves taken: 31. total_reward: -27.683912073112353
+INFO:main:failed:: episode_id: 14. moves taken: 31. total_reward: -27.683912073112353
