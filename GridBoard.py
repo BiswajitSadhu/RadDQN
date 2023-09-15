@@ -60,6 +60,10 @@ class GridBoard:
         displ_board[:] = '  '
 
         for name, piece in self.components.items():
+            if type(piece.pos) == str:
+                piece.pos = eval(piece.pos)
+            else:
+                piece.pos = tuple(piece.pos)
             displ_board[piece.pos] = piece.code
 
         for name, mask in self.masks.items():
@@ -71,18 +75,27 @@ class GridBoard:
         num_pieces = len(self.components) + len(self.masks)
         displ_board = np.zeros((num_pieces, self.size, self.size), dtype=np.uint8)
         layer = 0
+
         for name, piece in self.components.items():
-            pos = (layer,) + piece.pos
+            if type(piece.pos) is str:
+                pos = (layer,) + tuple(eval(piece.pos))
+
+            else:
+                pos = (layer,) + tuple(piece.pos)
             displ_board[pos] = 1
             layer += 1
 
         for name, mask in self.masks.items():
-            x,y = self.masks['boundary'].get_positions()
-            z = np.repeat(layer,len(x))
-            a = (z,x,y)
+            x, y = self.masks['boundary'].get_positions()
+            z = np.repeat(layer, len(x))
+            a = (z, x, y)
             displ_board[a] = 1
             layer += 1
         return displ_board
 
 def addTuple(a,b):
+    if type(a) == str:
+        a = eval(a)
+    if type(b) == str:
+        b = eval(b)
     return tuple([sum(x) for x in zip(a,b)])
