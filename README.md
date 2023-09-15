@@ -9,7 +9,7 @@ Flowsheet of RadDQN architechture:
 
 Radiation Aware Reward Strcuture:
 
-![reward_exposure_destination_factor_5_200_colorbar](https://github.com/BiswajitSadhu/RadDQN/assets/96395651/b0504d72-1321-490e-b7a2-1ba43db77d22)
+![REWARD_function](https://github.com/BiswajitSadhu/RadDQN/assets/96395651/bd056d18-bd22-4e5c-955f-9b0b60a9daf9)
 
 radiation-aware reward function for sources at (2,0) and (7,7). R$_{e}$  and R$_{s}$ are the reward obtained based on how far the agent is from exit and source, respectively. The sum of these are used as total reward for arriving at particular state.
 
@@ -25,6 +25,6 @@ python main.py --config_file configs/dqn_ef_1_s_0.yaml --logdir log/seed_3007_ef
 
 Scenario: Three radioactive sources on the simulated floor. The task of the agent is to reach destination in quickest time but with exposure of minimum radiation intensity (cumulatively).
 
-[Variable_strength_test.pptx](https://github.com/BiswajitSadhu/RadDQN/files/12615928/Variable_strength_test.pptx)
+![variable_three_sources](https://github.com/BiswajitSadhu/RadDQN/assets/96395651/86321f01-53a4-45f9-9882-871e148909ca)
 
 The above plot shows the optimum path (black dashed line) predicted by RadDQN in case of three sources (S1, S2 and S3) in simulated floor. The important diversion points within the predicted path in response to the change in radiation intensity of sources are shown as A/B/C/D. (a) Top panel (\textit{Case V1}): S1, S2 and S3 has equal radiation strength (5 unit) (b) bottom left panel (\textit{Case V2}): radiation strength of S1 source is increased by 20-fold. The trajectory has three major diversion points to minimize the radiation exposure. (c) bottom right panel (\textit{Case V3}): radiation strength of S1 and S2 sources are increased by 20-fold. The trajectory has four major diversion points to minimize the radiation exposure.
