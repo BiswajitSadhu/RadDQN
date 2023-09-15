@@ -10,11 +10,7 @@ Description:  We introduce RadDQN architecture that works on efficient reward-ba
 
 ![REWARD_function](https://github.com/BiswajitSadhu/RadDQN/assets/96395651/bd056d18-bd22-4e5c-955f-9b0b60a9daf9)
 
-radiation-aware reward function for sources at (2,0) and (7,7). R$_{e}$  and R$_{s}$ are the reward obtained based on how far the agent is from exit and source, respectively. The sum of these are used as total reward for arriving at particular state.
-
-File descriptions:
-
-
+radiation-aware reward function for sources at (2,0) and (7,7). R_e  and R_s are the reward obtained based on how far the agent is from exit and source, respectively. The sum of these are used as total reward for arriving at particular state.
 
 **Run command:**
 
@@ -27,4 +23,4 @@ Three radioactive sources on the simulated floor. The task of the agent is to re
 
 ![variable_three_sources](https://github.com/BiswajitSadhu/RadDQN/assets/96395651/86321f01-53a4-45f9-9882-871e148909ca)
 
-The above plot shows the optimum path (black dashed line) predicted by RadDQN in case of three sources (S1, S2 and S3) in simulated floor. The important diversion points within the predicted path in response to the change in radiation intensity of sources are shown as A/B/C/D. (a) Top panel (\textit{Case V1}): S1, S2 and S3 has equal radiation strength (5 unit) (b) bottom left panel (\textit{Case V2}): radiation strength of S1 source is increased by 20-fold. The trajectory has three major diversion points to minimize the radiation exposure. (c) bottom right panel (\textit{Case V3}): radiation strength of S1 and S2 sources are increased by 20-fold. The trajectory has four major diversion points to minimize the radiation exposure.
+The above plot shows the optimum path (black dashed line) predicted by RadDQN in case of three sources (S1, S2 and S3) in simulated floor. The important diversion points within the predicted path in response to the change in radiation intensity of sources are shown as A/B/C/D. (a) Top panel: S1, S2 and S3 has equal radiation strength (5 unit) (b) bottom left panel: radiation strength of S1 source is increased by 20-fold. The trajectory has three major diversion points to minimize the radiation exposure. (c) bottom right panel: radiation strength of S1 and S2 sources are increased by 20-fold. The trajectory has four major diversion points to minimize the radiation exposure.
