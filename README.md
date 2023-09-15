@@ -7,7 +7,7 @@ Description:  We introduce RadDQN architecture that works on efficient reward-ba
 
 ![Real_RadDQN](https://github.com/BiswajitSadhu/RadDQN/assets/96395651/e5452241-7591-4640-a242-c72b6ba9bdc6)
 
-**Radiation Aware Reward Strcuture:**
+**Radiation Aware Reward Structure:**
 
 ![REWARD_function](https://github.com/BiswajitSadhu/RadDQN/assets/96395651/bd056d18-bd22-4e5c-955f-9b0b60a9daf9)
 
