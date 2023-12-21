@@ -11,7 +11,7 @@ Description:  We introduce RadDQN architecture that works on efficient reward-ba
 
 ![radiation_aware_reward_function_1_1_colorbar-1](https://github.com/BiswajitSadhu/RadDQN/assets/96395651/7d2085b4-f916-4209-8cfb-56e8c2852ff1)
 
-Radiation-aware reward function for two sources of unit radiation strength at (2,0) and (7,7). Reward \textbf{r} results from the subtraction of $\frac{n}{R_{e}}$ from $\sum_i{\frac{\Gamma S_i}{R_{s,i}^{2}}}$. In the figure, the start and exit cell are symbolized as `S' and `E', respectively. The value of $\Gamma$ and n are taken as 1.
+Radiation-aware reward function for two sources of unit radiation strength at (2,0) and (7,7). Reward \textbf{r} results from the subtraction of $\frac{n}{R_{e}}$ from $\sum_i{\frac{\Gamma S_i}{R_{s,i}^{2}}}$. In the figure, the start and exit cell are symbolized as S and E, respectively. The value of $\Gamma$ and n are taken as 1.
 
 **Run command:**
 
