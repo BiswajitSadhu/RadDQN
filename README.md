@@ -22,6 +22,8 @@ User needs to provide the path for saving log file. The seed may be assigned usi
 
 **python main.py --config_file configs/dqn_ef_1_s_0.yaml --logdir log/seed_3007_ef_1_s_0 --seed 3007**
 
+**After successfully run,the mentioned log file name in the command can be use to plot and benchmark comparison**
+
 **Scenario:** 
 
 Three radioactive sources on the simulated floor. The task of the agent is to reach destination in quickest time but with exposure of minimum radiation intensity (cumulatively).
